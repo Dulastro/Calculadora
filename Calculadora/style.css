@@ -1,0 +1,20 @@
+.calculadora{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    max-width: 200px;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+.calculadora input{
+    grid-column: span 4;
+    height: 50px;
+    font-size: 20px;
+    text-align: right;
+}
+.calculadora button {
+    height: 50px;
+    font-size: 20px;
+
+}
